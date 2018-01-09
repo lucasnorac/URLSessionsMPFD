@@ -12,6 +12,7 @@
 		209075CE1FD472E700593257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209075CC1FD472E700593257 /* Main.storyboard */; };
 		209075D01FD472E700593257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209075CF1FD472E700593257 /* Assets.xcassets */; };
 		209075D31FD472E700593257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209075D11FD472E700593257 /* LaunchScreen.storyboard */; };
+		20F8E6A21FDDED4600C0EDDD /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F8E6A11FDDED4600C0EDDD /* Media.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		209075CF1FD472E700593257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209075D21FD472E700593257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		209075D41FD472E700593257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F8E6A11FDDED4600C0EDDD /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				209075C81FD472E700593257 /* AppDelegate.swift */,
 				209075CA1FD472E700593257 /* ViewController.swift */,
+				20F8E6A11FDDED4600C0EDDD /* Media.swift */,
 				209075CC1FD472E700593257 /* Main.storyboard */,
 				209075CF1FD472E700593257 /* Assets.xcassets */,
 				209075D11FD472E700593257 /* LaunchScreen.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					209075C41FD472E700593257 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -138,6 +141,7 @@
 			files = (
 				209075CB1FD472E700593257 /* ViewController.swift in Sources */,
 				209075C91FD472E700593257 /* AppDelegate.swift in Sources */,
+				20F8E6A21FDDED4600C0EDDD /* Media.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +278,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5M2592277G;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = URLSessionsMPFD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasnoracapps.URLSessionsMPFD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +294,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5M2592277G;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = URLSessionsMPFD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucasnoracapps.URLSessionsMPFD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
